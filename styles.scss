@@ -1,0 +1,12 @@
+
+@import './scss/header.scss';
+@import './scss/start.scss';
+@import './scss/about.scss';
+@import './scss/pets.scss';
+@import './scss/help.scss';
+@import './scss/donate.scss';
+@import './scss/footer.scss';
+
+html {
+  scroll-behavior: smooth;
+}

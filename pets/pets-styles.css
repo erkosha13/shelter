@@ -5,7 +5,6 @@ html{
 .header__content{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 10px;
 }
 
 .wrapper{
@@ -68,6 +67,7 @@ html{
     background-color:#F6F6F6;
     padding-top: 96px;
     padding-bottom: 96px;
+    margin-top: 10px;
 }
 
 .pets__content {
@@ -152,7 +152,7 @@ html{
 
 .footer{
     height: 350px;
-    background-image: url('./svg/footer-gradient-background.svg');
+    background-image: url('../svg/footer-gradient-background.svg');
     background-position: center;
     background-size: cover;
 }
