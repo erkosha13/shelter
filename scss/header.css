@@ -1,0 +1,60 @@
+.container {
+  background-image: url("../svg/start-screen-gradient-background.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 708px;
+    margin: 0 auto;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+  padding: 0;
+}
+.nav__list__item {
+  display: inline-block;
+}
+.nav__list a {
+  color: #cdcdcd;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Arial;
+}
+
+.header__title {
+  color: #f1cdb3;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  font-family: Georgia;
+  margin-bottom: 0;
+}
+
+.header__subtitle {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.95px;
+  font-family: Arial;
+  margin-top: 0;
+}/*# sourceMappingURL=header.css.map */
