@@ -55,3 +55,27 @@
     flex-direction: column-reverse;
   }
 }
+
+@media screen and (max-width: 400px) {
+
+  .footer__contacts{
+    flex-direction: column;
+  }
+
+  .footer__img img {
+    width: 260px;
+    height: 269px;
+  }
+
+  .footer__content-text-h1 h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 32.5px;
+  }
+
+  .footer__content-text-p {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+

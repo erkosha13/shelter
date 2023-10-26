@@ -193,7 +193,7 @@
 
 
 @media screen and (max-width: 768px){
-  .pets__content{
+  .pets{
     display: none;
   }
 }

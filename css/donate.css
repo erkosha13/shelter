@@ -63,3 +63,45 @@
     flex-direction: column-reverse;
   }
 }
+
+@media screen and (max-width: 400px) {
+
+  .donate{
+    padding-bottom: 0;
+  }
+
+  .donate__content {
+    width: 300px;
+  }
+
+  .donate__content-img img{
+    width: 260px;
+    height: 135.2px;
+  }
+
+  .donate__content-title{
+    text-align: center;
+    font-size: 25px;
+    line-height: 32.5px;
+    width: 300px;
+    padding-left: 40px;
+  }
+
+  .donate__content-subtitle {
+    text-align: justify;
+    width: 300px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-left: 40px;
+  }
+
+  .donate__content-button{
+    padding-left: 25px;
+  }
+
+  .donate__content-legal p{
+    text-align: justify;
+    width:280px;
+    padding-left: 50px;
+  }
+}

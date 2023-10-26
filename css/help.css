@@ -42,3 +42,14 @@
     width: 630px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .help__content-list {
+    width: 290px;
+  }
+
+  .help__content-card{
+    width: 130px;
+  }
+}
+

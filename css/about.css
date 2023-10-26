@@ -36,3 +36,31 @@
     height: 408px;
   }
 }
+
+@media screen and (max-width: 400px) {
+
+  .about__content{
+    width: 300px;
+    margin-bottom: 0;
+  }
+
+  .about__content-h1 h1{
+    text-align: center;
+    font-size: 25px;
+    line-height: 32.5px;
+    width: 200px;
+    padding-left: 50px;
+  }
+
+  .about__content-text p {
+    text-align: justify;
+    width: 300px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .about__image img{
+    width: 260px;
+    height: 353.6px;
+  }
+}

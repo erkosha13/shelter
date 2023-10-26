@@ -68,3 +68,20 @@
     justify-content: space-between;
   }
 }
+
+@media screen and (max-width: 400px) {
+  /*----------------------------- header*/
+
+  .header__logo{
+    padding-left: 70px;
+  }
+
+.nav{
+  display: none;
+}
+
+.wrapper{
+  width: 300px;
+}
+
+}
